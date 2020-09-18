@@ -1,0 +1,5 @@
+name: Node Generator
+description: Module to generate nodes.
+type: module
+package: custom
+core_version_requirement: ^8.8.0 || ^9.0

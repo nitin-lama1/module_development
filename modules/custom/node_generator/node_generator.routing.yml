@@ -1,0 +1,15 @@
+node_generator.custom_node_generator_form:
+  path: '/admin/generate-nodes'
+  defaults:
+    _form: '\Drupal\node_generator\Form\NodeGeneratorForm'
+    _title: 'Node Generator'
+  requirements:
+    _permission: 'administer site configuration'
+
+node_generator.node_generator_form:
+  path: '/admin/node-generate'
+  defaults:
+    _form: '\Drupal\node_generator\Form\NodeGenerate'
+    _title: 'Node Generator Form'
+  requirements:
+    _permission: 'administer site configuration'
